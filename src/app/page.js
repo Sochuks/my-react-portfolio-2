@@ -32,7 +32,7 @@ export default function Home() {
           </div>
 
           {/*-- Social-Icons --*/}
-          <div>
+          <div className="flex justify-center text-4xl gap-6 py-3 text-gray-800">
               < AiFillGithub />
               < AiFillLinkedin />
               < RiTwitterXFill />

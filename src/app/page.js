@@ -1,5 +1,7 @@
 import Image from "next/image";
 import {BsFillMoonStarsFill} from "react-icons/bs";
+import {AiFillGithub, AiFillLinkedIn} from "react-icons/ai";
+import {RiTwitterxFill} from "react-icons/ri";
 
 export default function Home() {
   return (

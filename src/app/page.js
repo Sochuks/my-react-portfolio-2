@@ -1,14 +1,14 @@
 import Image from "next/image";
 import {BsFillMoonStarsFill} from "react-icons/bs";
-import {AiFillGithub, AiFillLinkedIn} from "react-icons/ai";
-import {RiTwitterxFill} from "react-icons/ri";
+import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
+import {RiTwitterXFill} from "react-icons/ri";
 
 export default function Home() {
   return (
     <main className="bg-white px-10">
       
       <section className="min-h-screen">
-
+          /* Top-Bar */
           <div className="py-10 mb-12 flex justify-between">
               <h1 className="text-xl">DevelopedBySochuks</h1>
               
@@ -22,6 +22,20 @@ export default function Home() {
                   </li>
               </ul>
 
+          </div>
+
+          {/* Intro-Text --*/}
+          <div>
+              <h2>Moses Sochukwuma Kajang</h2>
+              <h3>Software Engineer - Web Developer</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores rerum vel vero quaerat atque obcaecati libero aperiam velit recusandae repellat.</p>
+          </div>
+
+          {/*-- Social-Icons --*/}
+          <div>
+              < AiFillGithub />
+              < AiFillLinkedin />
+              < RiTwitterXFill />
           </div>
 
       </section>

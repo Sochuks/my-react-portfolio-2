@@ -46,6 +46,22 @@ export default function Home() {
 
       </section>
 
+      {/* Service I offer */}
+      <section>
+
+            <div>
+
+                <h2 className="text-3xl py-1">Services I Offer</h2>
+                <p className="text-md py-2 leading-8 text-gray-800">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore fugit sit officia rem voluptatem atque?
+                </p>
+                <p className="text-md py-2 leading-8 text-gray-800">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+            </div>
+
+      </section>
+
     </main>
   );
 }

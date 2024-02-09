@@ -40,7 +40,7 @@ export default function Home() {
           </div>
 
           {/* Porfolio-image */}
-          <div>
+          <div className="relative mx-auto mt-4 rounded-full h-80 w-80 bg-slate-400">
               <Image src={deved} />
           </div>
 

@@ -2,6 +2,7 @@ import Image from "next/image";
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 import {RiTwitterXFill} from "react-icons/ri";
+import deved from "/src/img/profile-pic-1.png";
 
 export default function Home() {
   return (
@@ -36,6 +37,11 @@ export default function Home() {
               < AiFillGithub />
               < AiFillLinkedin />
               < RiTwitterXFill />
+          </div>
+
+          {/* Porfolio-image */}
+          <div>
+              <Image src={deved} />
           </div>
 
       </section>

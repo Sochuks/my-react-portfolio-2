@@ -63,17 +63,17 @@ export default function Home() {
             {/* Service Design */}
             <div>
 
-                <div>
+                <div className="shadow-lg my-10 p-10 rounded-md">
 
                   < Image />
-                  <h3>Elegant Designs</h3>
-                  <p>
+                  <h3 className="text-lg font-medium pt-8 pb-2">Elegant Designs</h3>
+                  <p className="py-2">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil autem voluptatibus?  
                   </p> 
-                  <h4>Familiar Design Tools</h4>
-                  <p>Photoshop</p>
-                  <p>Canva</p>
-                  <p>Figma</p>
+                  <h4 className="py-4 text-teal-500">Familiar Design Tools</h4>
+                  <p className="text-gray-800 py-1">Photoshop</p>
+                  <p className="text-gray-800 py-1">Canva</p>
+                  <p className="text-gray-800 py-1">Figma</p>
 
                 </div>
 

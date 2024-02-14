@@ -60,13 +60,43 @@ export default function Home() {
                 </p>
             </div>
 
-            {/* Service Design */}
+            {/* Service Cards */}
             <div>
-
+                {/* Services Design */}
                 <div className="shadow-lg my-10 p-10 rounded-md">
 
                   < Image />
                   <h3 className="text-lg font-medium pt-8 pb-2">Elegant Designs</h3>
+                  <p className="py-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil autem voluptatibus?  
+                  </p> 
+                  <h4 className="py-4 text-teal-500">Familiar Design Tools</h4>
+                  <p className="text-gray-800 py-1">Photoshop</p>
+                  <p className="text-gray-800 py-1">Canva</p>
+                  <p className="text-gray-800 py-1">Figma</p>
+
+                </div>
+
+                {/* Services Code */}
+                <div className="shadow-lg my-10 p-10 rounded-md">
+
+                  < Image />
+                  <h3 className="text-lg font-medium pt-8 pb-2">Reusable Code</h3>
+                  <p className="py-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil autem voluptatibus?  
+                  </p> 
+                  <h4 className="py-4 text-teal-500">Familiar Design Tools</h4>
+                  <p className="text-gray-800 py-1">Photoshop</p>
+                  <p className="text-gray-800 py-1">Canva</p>
+                  <p className="text-gray-800 py-1">Figma</p>
+
+                </div>
+
+                {/* Services Consulting */}
+                <div className="shadow-lg my-10 p-10 rounded-md">
+
+                  < Image />
+                  <h3 className="text-lg font-medium pt-8 pb-2">Consulting & IT Support</h3>
                   <p className="py-2">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil autem voluptatibus?  
                   </p> 

@@ -56,12 +56,12 @@ export default function Home() {
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore fugit sit officia rem voluptatem atque?
                 </p>
                 <p className="text-md py-2 leading-8 text-gray-800">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
 
             {/* Service Cards */}
-            <div>
+            <div className="md:flex gap-5">
                 {/* Services Design */}
                 <div className="shadow-lg my-10 p-10 rounded-md">
 

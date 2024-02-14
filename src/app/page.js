@@ -51,13 +51,32 @@ export default function Home() {
 
             <div>
 
-                <h2 className="text-3xl py-1">Services I Offer</h2>
+                <h3 className="text-3xl py-1">Services I Offer</h3>
                 <p className="text-md py-2 leading-8 text-gray-800">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore fugit sit officia rem voluptatem atque?
                 </p>
                 <p className="text-md py-2 leading-8 text-gray-800">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 </p>
+            </div>
+
+            {/* Service Design */}
+            <div>
+
+                <div>
+
+                  < Image />
+                  <h3>Elegant Designs</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil autem voluptatibus?  
+                  </p> 
+                  <h4>Familiar Design Tools</h4>
+                  <p>Photoshop</p>
+                  <p>Canva</p>
+                  <p>Figma</p>
+
+                </div>
+
             </div>
 
       </section>

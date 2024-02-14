@@ -45,9 +45,9 @@ h1{
   font-size: 2.5rem;
 }
 
-section {
+/* section {
   margin-top: 8rem;
-}
+} */
 
 section > h1, section > h5{
   text-align: center;

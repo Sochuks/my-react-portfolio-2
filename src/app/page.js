@@ -6,7 +6,7 @@ import deved from "/src/img/profile-pic-1.png";
 
 export default function Home() {
   return (
-    <main className="bg-white px-10">
+    <main className="bg-white px-10 md:px-20 lg:px:40">
       
       <section className="min-h-screen">
           {/* Top-Bar */}
@@ -27,9 +27,9 @@ export default function Home() {
 
           {/* Intro-Text --*/}
           <div className="text-center p-10">
-              <h2 className="text-5xl text-teal-400 py-2 font-medium">Moses Sochukwuma Kajang</h2>
-              <h3 className="text-2xl py-2">Software Engineer - Web Developer</h3>
-              <p className="text-md py-5 leading-8 text-gray-800">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores rerum vel vero quaerat atque obcaecati libero aperiam velit recusandae repellat.</p>
+              <h2 className="text-5xl text-teal-400 py-2 font-medium md:text-6xl">Moses Sochukwuma Kajang</h2>
+              <h3 className="text-2xl py-2 md:text-3xl">Software Engineer - Web Developer</h3>
+              <p className="text-md py-5 leading-8 text-gray-800 mx-auto max-w-xl md:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores rerum vel vero quaerat atque obcaecati libero aperiam velit recusandae repellat.</p>
           </div>
 
           {/*-- Social-Icons --*/}

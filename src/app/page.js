@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import {BsFillMoonStarsFill} from "react-icons/bs";
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai";
@@ -8,7 +10,9 @@ import { useState } from "react";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <main className="bg-white px-10 md:px-20 lg:px:40">
+    <div className={darkMode ? "dark:" : ""}>
+
+    <main className="bg-white px-10 md:px-20 lg:px:40 dark:bg-gray-900">
       
       <section className="min-h-screen">
           {/* Top-Bar */}
@@ -17,7 +21,7 @@ export default function Home() {
               
               <ul className="flex px-8 items-center">
                   <li> 
-                    <BsFillMoonStarsFill className="cursor-pointer text-xl" /> 
+                    <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl" /> 
                   </li>
 
                   <li>
@@ -129,5 +133,7 @@ export default function Home() {
       </section>
 
     </main>
+
+    </div>
   );
 }
